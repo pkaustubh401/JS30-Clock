@@ -29,7 +29,8 @@ body {
 
 .hand {
   width: 50%;
-  background-color: rgb(224, 224, 224);
+
+  border-radius: 7px;
   position: absolute;
   top: 50%;
   transform: rotate(90deg);
@@ -38,13 +39,16 @@ body {
 }
 
 #seconds {
-  height: 2px;
+  height: 1px;
+  background-color: rgb(199, 197, 197);
 }
 
 #minutes {
   height: 4px;
+  background-color: rgb(212, 211, 211);
 }
 
 #hours {
-  height: 6px;
+  height: 10px;
+  background-color: rgb(255, 255, 255);
 }
